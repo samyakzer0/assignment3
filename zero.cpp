@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int n;
+    long long  n;
     cin >> n;
 
     if (n == 0) {
@@ -10,7 +10,7 @@ int main() {
         return 0;
     }
 
-    int modified = 0;
+    long long  modified = 0;
 
     while (n != 0) {
         int digit = n % 10;
@@ -21,7 +21,7 @@ int main() {
         n = n / 10;
     }
 
-    int original = 0;
+    long long  original = 0;
     while (modified != 0) {
         int digit = modified % 10;
         original = original * 10 + digit;
