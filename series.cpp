@@ -6,7 +6,7 @@ int main() {
     cin >> N1;
     int N2;
     cin >> N2;
-
+    
     int count = 0;
     for (int i = 1; count < N1; i++) {
         int term = 3 * i + 2;
