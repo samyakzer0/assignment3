@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 300px;
+    width: 600px;
+}
+
+.link-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+body{
+    background-color: #c11211
+}
+
+.text{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
