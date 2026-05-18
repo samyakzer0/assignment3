@@ -1,0 +1,63 @@
+.card{
+    height: 80%;
+    width: 25%;
+    margin: 0 auto;
+    padding-top: 20px
+}
+body{
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+}
+img{
+    height: 30%;
+    width : 100%;
+    align-items: center;
+}
+
+.time{
+    text-align:center;
+    color: palevioletred;
+}
+
+.Header{
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+}
+.stats-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:palevioletred;
+    color:white;
+}
+
+.reads,.views,.comments {
+    padding: 10px;
+    margin-right: 40px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.reads{
+    align-items: center;
+    border-right: 2px solid #b02956;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.views{
+    align-items: center;
+    border-right: 2px solid rgb(185, 70, 108);
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.comments{
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
