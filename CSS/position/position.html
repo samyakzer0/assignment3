@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Position Demo</title>
+    <link rel="stylesheet" href="position.css">
+</head>
+<body>
+
+    <div class="section">
+        <h2>1. Static (Default)</h2>
+        <div class="parent">
+            <div class="box static">Static</div>
+            <div class="sibling">Sibling</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>2. Relative</h2>
+        <div class="parent">
+            <div class="box relative">Relative</div>
+            <div class="sibling">Sibling</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>3. Absolute</h2>
+        <div class="parent">
+            <div class="box absolute">Absolute</div>
+            <div class="sibling">Sibling</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>4. Sticky</h2>
+        <div class="parent scroll-box">
+            <div class="box sticky">Sticky</div>
+            <p>Scroll inside or past this section...</p>
+        </div>
+    </div>
+
+    <div class="box fixed">Fixed</div>
+
+</body>
+</html>

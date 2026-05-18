@@ -1,0 +1,84 @@
+/* Base setup for visual clarity */
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    margin-bottom: 800px; /* Adds scroll room for Fixed/Sticky demos */
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.parent {
+    background: #e0e0e0;
+    border: 2px dashed #999;
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    position: relative; /* Setup for Absolute demo; others ignore this */
+}
+
+/* The colored squares we are moving around */
+.box {
+    width: 80px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* Gray boxes representing standard elements next in line */
+.sibling {
+    width: 80px;
+    height: 50px;
+    background: #777;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* ==========================================
+   THE 5 POSITIONING TYPES
+   ========================================== */
+
+/* 1. STATIC: Ignores top/left. Stays in normal flow. */
+.static {
+    background: red;
+    position: static;
+}
+
+/* 2. RELATIVE: Moves from its OWN original spot. Leaves a gap. */
+.relative {
+    background: orange;
+    position: relative;
+    top: 50px;
+    left: 240px;
+}
+
+/* 3. ABSOLUTE: Pulls out of flow. Positions relative to .parent container. */
+.absolute {
+    background: purple;
+    position: absolute;
+    top: 150px;
+    right: 10px;
+}
+
+/* 4. FIXED: Pinned permanently to the viewport screen. Ignores scrolling. */
+.fixed {
+    background: green;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* 5. STICKY: Acts relative until you scroll past 10px, then locks in place. */
+.sticky {
+    background: teal;
+    position: sticky;
+    top: 10px;
+}
+
+.scroll-box {
+    height: 300px; /* Making this parent taller so sticky has room to move */
+}

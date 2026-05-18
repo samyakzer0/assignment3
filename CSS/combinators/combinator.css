@@ -1,0 +1,9 @@
+h1+p{
+    color: #527adf;
+    
+}
+
+h1~p{
+    color: #527adf;
+    
+}
