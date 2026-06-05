@@ -1,0 +1,102 @@
+body {
+    background-image: url('img.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #1a1f2c; 
+    text-align: center;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin-bottom: 28px;
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8), 1px 1px 3px rgba(26, 31, 44, 0.2); 
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0; 
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: rgba(255, 255, 255, 0.25); 
+    backdrop-filter: blur(16px); 
+    -webkit-backdrop-filter: blur(16px);
+    border: 2px solid rgba(26, 31, 44, 0.4); 
+    border-radius: 16px;
+    margin: 0 auto;
+    height: 450px;
+    width: 900px;
+    overflow: hidden; 
+    box-shadow: 0 20px 50px rgba(26, 31, 44, 0.25); 
+}
+
+th {
+    background-color: rgba(36, 45, 66, 0.85); 
+    color: #ffffff;
+    padding: 16px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgba(26, 31, 44, 0.3);
+    border-right: 1px solid rgba(26, 31, 44, 0.2);
+}
+
+th[rowspan] {
+    background-color: rgba(176, 58, 80, 0.85) !important; 
+    color: #ffffff;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(26, 31, 44, 0.3);
+    border-right: 2px solid rgba(26, 31, 44, 0.3);
+}
+
+td {
+    color: #1a1f2c;
+    font-weight: 700;
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid rgba(26, 31, 44, 0.25); 
+    border-right: 1px solid rgba(26, 31, 44, 0.25);
+}
+
+td:last-child, th:last-child {
+    border-right: none;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.day {
+    background-color: rgba(67, 98, 128, 0.8); 
+    color: #ffffff;
+    font-weight: 800;
+    border-right: 2px solid rgba(26, 31, 44, 0.3);
+}
+
+.citrus {
+    background-color: rgba(252, 161, 176, 0.55);
+    color: #4a121c;
+}
+
+.mint {
+    background-color: rgba(148, 204, 154, 0.55);
+    color: #16381a;
+}
+
+.berry {
+    background-color: rgba(158, 202, 225, 0.55);
+    color: #112d42;
+}
+
+.peach {
+    background-color: rgba(226, 240, 217, 0.55);
+    color: #243d1a;
+}
